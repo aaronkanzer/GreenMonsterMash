@@ -1,13 +1,15 @@
-import urllib2
-import datetime
 
+import datetime
+from urllib.request import urlopen
 from bs4 import BeautifulSoup
 
 # specify Baseball Reference URL
 quote_page = 'https://www.baseball-reference.com/previews/'
 
 # Call BeautifulSoup web parser
-page = urllib2.urlopen(quote_page)
+
+
+page = urlopen(quote_page)
 soup = BeautifulSoup(page, 'html.parser')
 
 # Pull all data related to games
@@ -37,9 +39,6 @@ class MLBGame:
         self.awayNumb = awayNumb
         self.homeNumb = homeNumb
         self.startTime = startTime
-
-    def bosTimeDifference(self):
-        return abs(bostonStartTime - self.gameTime())
 
     def isBostonGame(self):
     	return (self.homeTeam == 'BOS')
