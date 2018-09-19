@@ -1,6 +1,6 @@
 # GreenMonsterMash
 
-****Needed to make edits for edge cases, so libraries and scraping may not be successful
+****Needed to make edits for edge cases, so libraries and scraping may not be successful for every day or every game.
 
 Small personal project -- the goal was to automate the informational retrieval that I do each day at Fenway Park as one of the Green Monster Scoreboard Operators.
 
