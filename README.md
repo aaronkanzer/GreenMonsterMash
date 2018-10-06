@@ -14,7 +14,7 @@ Go Sox!
 
 Here is a sample output of the program from September 28th, 2018:
 
-Scoreboard Set-Up for 9/28/2018
+```Scoreboard Set-Up for 9/28/2018
 
 ---- Games for American League Side ---- 
 
@@ -79,3 +79,4 @@ Scoreboard Set-Up for 9/28/2018
 10:15
 #99 LAD
 #40 SFG
+```
