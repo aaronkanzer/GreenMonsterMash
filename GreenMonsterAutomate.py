@@ -1,5 +1,5 @@
-import datetime
 from urllib.request import urlopen
+import datetime
 from bs4 import BeautifulSoup
 
 # specify Baseball Reference URL
@@ -114,8 +114,12 @@ while j < len(stringGameList) - 4:
         nlGames.append(x)
     j = j + 5
 
-print("---- Games for American League Side ---- \n")
+print("---- Red Sox Game ---- \n")
+for game in alGames:
+    if (game.homeTeam == 'BOS'):
+        print(game.gameData())
 
+print("---- Games for American League Side ---- \n")
 
 for game in alGames:
     if (game.homeTeam == 'BOS'):
@@ -128,22 +132,6 @@ print("---- Games for National League Side ----\n")
 
 for game in nlGames:
     print(game.gameData())
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
