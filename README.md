@@ -77,10 +77,6 @@ Scoreboard Set-Up for 9/28/2018
 #46 ARI
 #46 SDP
 
-10:10
-#33 TEX
-#49 SEA
-
 10:15
 #99 LAD
 #40 SFG
