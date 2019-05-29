@@ -1,12 +1,12 @@
 # GreenMonsterMash
 
-****Needed to make edits for edge cases, so libraries and scraping may not be successful for every day or every game.
-
 Small personal project -- the goal was to automate the informational retrieval that I do each day at Fenway Park as one of the Green Monster Scoreboard Operators.
 
 Each game, we need to set up the scoreboard with the appropriate AL and NL games, and their respective pitching numbers. This Python script allows me to get all of the necessary information needed with the click of a button.
 
 In order to get the information, it uses a Web Scraper library called BeautifulSoup. Using BeautifulSoup, I am able to get the HTML from BaseballReference's Probable Pitchers webpage. I then parse that HTML into a readable output so I can easily see the needed information to set up the scoreboard.
+
+Please be aware that this script should be run using a version of Python 3.7, as well as with certain dependencies installed locally.
 
 Go Sox!
 
@@ -16,6 +16,10 @@ Here is a sample output of the program from September 28th, 2018:
 
 ```
 Scoreboard Set-Up for 9/28/2018
+
+7:10
+#61 BOS
+#34 NYY
 
 ---- Games for American League Side ---- 
 
